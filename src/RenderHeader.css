@@ -1,0 +1,51 @@
+.render-header {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.render-header img {
+    width: 100%;
+    height: 100%;
+}
+
+.render-header a {
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 20px 30px;
+    color: black;
+    font-weight: bold;
+}
+.header-button{
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 20px 30px;
+    color: black;
+    font-weight: bold;
+}
+.header-input{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 20px 30px;
+    color: black;
+    font-weight: bold;
+}
+@media (max-width: 600px) {
+    .render-header a {
+        padding: 5px 10px;
+    }    
+    .render-header {
+        height: 200%;
+    }
+}

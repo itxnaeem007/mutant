@@ -1,0 +1,20 @@
+.main-section {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.placeholder {
+    width: 32px;
+    height: 32px;
+}
+
+@media (min-width: 767px) {
+    .main-section {
+        flex-direction: row;
+    }
+}
